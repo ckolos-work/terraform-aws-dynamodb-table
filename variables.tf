@@ -1,3 +1,9 @@
+variable "app_autoscaling_policy_name" {
+  description = "app autoscaling policy name"
+  type        = string
+  default     = null
+}
+
 variable "create_table" {
   description = "Controls if DynamoDB table and associated resources are created"
   type        = bool
